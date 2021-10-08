@@ -1,0 +1,1 @@
+const generateRandomIdBasedUponCurrentDate = () => Date.now().toString() + Math.random().toString().substring(2);
